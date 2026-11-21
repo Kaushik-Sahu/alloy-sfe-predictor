@@ -1,0 +1,5 @@
+# Full local development dependencies (includes CALPHAD engine)
+-r requirements.txt
+pycalphad>=0.11.0
+ipykernel>=6.25.0
+scipy>=1.11.0

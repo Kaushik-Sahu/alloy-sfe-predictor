@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints & logs
+*.ckpt
+*.log
+checkpoints/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large generated data (keep sample, ignore full run)
+data/raw/raw_sfe_data.csv
+
+# Outputs that can be regenerated
+outputs/generation_stats.json
